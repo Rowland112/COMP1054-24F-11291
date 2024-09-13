@@ -1,0 +1,32 @@
+/** Step one **/
+h1, h2, h3, h4, h5, h6{
+    font-family: "SUSE", sans-serif;
+}
+
+/** Step two **/
+
+h1{
+    font-size: 46px;
+    letter-spacing: 1.85px;
+    text-align: center;
+    color: aqua;
+}
+
+/** Step three **/
+p, a, li{
+    font-family: "Oswald", sans-serif;
+}
+
+/** Step four **/
+p span{
+    color: brown;
+}
+
+/** Step five **/
+h3{
+    font-size: 23px;
+    color: rgb(55, 226, 43);
+    text-shadow: 4px 2px 2px hsl(0, 73%, 9%);
+}
+
+/** Step six **/
