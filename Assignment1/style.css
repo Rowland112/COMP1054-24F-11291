@@ -1,0 +1,64 @@
+/* Reset some default styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Page background and general text styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a sans-serif font as the primary */
+    background-color: #f0f8ff; /* Light blue background to evoke calmness */
+    color: #333; /* Dark text for better contrast */
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4b8bbe; /* Blue color reflecting the calmness theme */
+    color: white; /* White text for contrast */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Shadow for depth */
+}
+
+/* Main section styles */
+main {
+    max-width: 800px;
+    margin: 20px auto; /* Centering the content */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Soft shadow */
+}
+
+/* Lyrics section styles */
+#lyrics {
+    margin-top: 20px;
+}
+
+/* Styling for h3 in lyrics section */
+#lyrics h3 {
+    font-family: 'Georgia', serif; /* Use a serif font for contrast */
+    font-size: 2em; /* Larger size for emphasis */
+    color: #4b8bbe; /* Consistent blue color */
+    margin-bottom: 10px;
+}
+
+/* Paragraph styling for lyrics */
+#lyrics p {
+    font-family: 'Courier New', monospace; /* Monospace font for lyric text */
+    font-size: 1.2em; /* Slightly larger for readability */
+    margin: 10px 0; /* Spacing between lines */
+    padding-left: 20px; /* Indentation for style */
+    border-left: 3px solid #4b8bbe; /* Left border to frame the lyrics */
+}
+
+
+
+/* Footer styles */
+footer {
+    text-align: center; /* Centered text */
+    font-size: 0.8em; /* Smaller font for footer */
+    margin-top: 20px; /* Space above footer */
+    color: #666; /* Lighter gray for contrast */
+}
