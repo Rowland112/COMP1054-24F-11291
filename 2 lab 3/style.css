@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box; /* Include padding and border in element’s total width and height */
+}
+
+body {
+    display: flex; /* Enable Flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #999999; /* Light gray background */
+}
+
+.button-container {
+    display: flex; /* Make container a flex container */
+    justify-content: center; /* Center button horizontally within the container */
+}
+
+.svg-button {
+    width: 200px; /* Set button width */
+    height: 60px; /* Set button height */
+    cursor: pointer; /* Change cursor to pointer */
+    transition: transform 0.3s ease; /* Smooth transformation */
+    border: none; /* Remove border from button */
+    background: none; /* Remove default button background */
+}
+
+.svg-button:hover {
+    transform: scale(1.1); /* Enlarge button slightly on hover */
+}
