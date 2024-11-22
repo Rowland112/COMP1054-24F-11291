@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #f9f7f7, #f1f1f1);
+}
+
+header {
+    background: linear-gradient(to right, #ff0099, #493240); /* Gradient from pink to dark purple */
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.chocolate-bar-img {
+    width: 1430px;   /* Set the width of the image */
+    height: 740px;   /* Set the height of the image */
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width:100%;       /* Makes each image take up 80% of the container's width */
+    max-width: 350px; /* Optional: Prevents the image from becoming too large */
+    height: 360px;     /* Maintains aspect ratio */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.youtube-video {
+    width: 700%;  /* Makes the video responsive */
+    max-width: 800px;  /* Maximum width of the video */
+    height: 570px;  /* Height of the video */
+    border: none;  /* Removes any border around the iframe */
+}
+
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+.footer-content {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 600px;
+    width: 250px;  /* Set the width to 200px */
+    height: 250px;  /* Maintain aspect ratio (adjust height automatically) */
+}
+
+footer form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+footer input, footer textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 10px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #ff8100;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+    }
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery img {
+        width: auto;
+    }
+
+}
